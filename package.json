@@ -1,0 +1,16 @@
+{
+	"name": "baml-mcp-01",
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify",
+		"cf-typegen": "wrangler types --env-interface CloudflareBindings"
+	},
+	"dependencies": {
+		"@boundaryml/baml": "^0.84.4",
+		"hono": "^4.7.7"
+	},
+	"devDependencies": {
+		"typescript": "^5.8.3",
+		"wrangler": "^4.12.0"
+	}
+}
